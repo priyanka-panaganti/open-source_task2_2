@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+body{
+margin: 0;
+font-family: Arial;
+font-size: 17px;
+background-image: url(https://media.istockphoto.com/photos/noir-elegance-black-wooden-board-background-wood-texture-picture-id694004266?k=20&m=694004266&s=170667a&w=0&h=BFBPFtk_1a_0-MH1PeeWQcWqVu7iUFg8GlNsVdTODGQ=) ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 42cm 30cm;
+}
+
+
+#header{
+
+background-color: rgb(0, 0,0,0.5)  ;
+text-align: center;
+ padding: 30px;
+ color: #f1f1f1;
+
+
+
+
+  }
+
+  #myVideo {
+position: fixed;
+right: 0;
+ bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+}
+
+ .content {
+     position: fixed;
+     bottom: 0%;
+      background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+     padding: 25px;
+  }
+
+  h1{
+    
+    
+    font-size: 40px;
+    margin: 70px 0px 5px;
+    text-align: center;
+   padding-bottom: 50px;
+   animation: color-change 5s infinite;
+  }
+
+  @keyframes color-change{
+    from{color: rgb(24, 130, 154);}
+    to{color: beige;}
+  }
+  
+  #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 590px;
+    
+    
+  }
+  
+  #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background:  rgba(0, 0, 0, 0.5);
+    display: inline-block;
+  }
+  
+  #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: black ;
+    display: inline-block;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+  }
